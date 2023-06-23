@@ -13,7 +13,7 @@ class Config(object):
 	DATABASE_URL ="mongodb+srv://MeetGhetiya:meetgpatel@cluster0.8mil8ub.mongodb.net/"
 	UPDATES_CHANNEL = "-1001875647256"
 	LOG_CHANNEL = -1001875647256
-	BANNED_USERS = set("1234567890").split()
+	BANNED_USERS = set("1234567890")
 	FORWARD_AS_COPY = True
 	BROADCAST_AS_COPY = False
 	BANNED_CHAT_IDS = list("-1001362659779 -1001255795497").split()
